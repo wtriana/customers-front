@@ -1,0 +1,21 @@
+.form-container {
+    font: 95% Arial, Helvetica, sans-serif;
+    max-width: 500px;
+    padding: 16px;
+    margin: 10px auto;
+    background: #f7f7f7;
+}
+
+.form-container h1 {
+    background: #43d1af;
+    padding: 20px 0;
+    font-weight: 300;
+    text-align: center;
+    color: #ffffff;
+    margin: -16px;
+}
+
+.form-container input[type="text"],
+.form-container input[type="email"],
+.form-container textarea[type="message"],
+{}
