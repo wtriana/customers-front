@@ -24,14 +24,12 @@ export class FormCustomerComponent {
   constructor(private _customerService:CustomersService) { }
 
   onResetform(){
-    console.log("a reset form");
     this.customerForm.reset();
   }
 
   onSaveForm(){
     this.newCustomer = this.customerForm.value;
     this._customerService.save(this.newCustomer).subscribe((rs: any)=>{
-      alert('Saved data Success');
       this.onResetform();
       this.showAlert();
       
